@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    
+
+</head>
+
+<body>
+<!-- NAVBAR -->
+<header class="animate-top">
+    <nav class="navbar">
+        <h3>Personal Portfolio</h3>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!--  HOME PAGE -->
+<main>
+    <section class="hero" id="home">
+    <div class="home animate-left">
+    <h1>Hello!<br>This is <span class="name">Naveetharan</span><br>F/S Developer</h1>
+    <div class="social-icons">
+
+    <a href="https://github.com/naveetharan" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://x.com/naveetharan" aria-label="X">
+    <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a href="https://facebook.com/naveetharan" aria-label="Facebook">
+    <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <a href="https://linkedin.com/in/naveetharan-t-a0a4a3352" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="mailto:naveetharan.t@gmail.com" aria-label="Gmail">
+    <i class="fa-solid fa-envelope"></i>
+    </a>
+
+    </div>
+    <button class="contact-me-btn">Contact Me</button>
+    <button class="get-resume-btn">Get Resume</button>
+    </div>
+    <!-- right card -->
+    <div class="home-right animate-right">
+    <div class="code-card">
+
+  <!-- Top bar -->
+  <div class="code-header">
+    <div class="window-buttons">
+      <span class="dot red"></span>
+      <span class="dot orange"></span>
+      <span class="dot green"></span>
+    </div>
+  </div>
+
+  <!-- Code -->
+  <div class="code-content">
+    <pre><code><span class="pink">const</span> <span class="white">coder</span> = {
+    <span class="white">name:</span> <span class="yellow">'Naveetharan'</span>,
+    <span class="white">skills:</span> [
+      <span class="yellow">'React','HTML','CSS','Java','JavaScript'</span>
+    ],
+    <span class="white">hardworker:</span> <span class="orange">true</span>,
+    <span class="white">quickLearner:</span> <span class="orange">true</span>,
+    <span class="white">problemSolver:</span> <span class="orange">true</span>,
+    <span class="white">hireable:</span> <span class="pink">function</span>() {
+        <span class="pink">return</span> (
+            <span class="cyan">this</span>.<span class="white">hardworker</span> &&
+            <span class="cyan">this</span>.<span class="white">problemSolver</span> &&
+            <span class="cyan">this</span>.<span class="white">skills.length</span> &gt;= <span class="orange">5</span>
+        );
+
+    }
+};</code></pre>
+  </div>
+
+</div>
+    </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-header animate-on-scroll">
+            <h1 class="bg-text">WHO AM I</h1>
+            <div class="title-badge">ABOUT ME</div>
+        </div>
+
+        <div class="about-content">
+            <div class="about-left animate-on-scroll">
+                <div class="dot-grid-container">
+                    <img src="./assests/navee1.png" alt="Character" class="about-character">
+                </div>
+            </div>
+            
+            <div class="about-right animate-on-scroll">
+                <h4 class="pink-title">Creativity</h4>
+                <h2 class="main-title">Is My Passion</h2>
+                <p class="about-desc">I'm a full stack developer and passionate about experimenting with new skills and creativity. Driven by learning and curiosity, I'm always looking to explore and learn new development and design skills.</p>
+            </div>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-card cyan-glow animate-on-scroll">
+                <div class="stat-top">
+                    <span class="stat-dot"></span>
+                </div>
+                <div class="stat-bottom">
+                    <div class="stat-text">
+                        <p class="stat-primary">Total No. of Projects</p>
+                        <p class="stat-secondary">Total No. of Projects</p>
+                    </div>
+                    <h3 class="stat-number">15</h3>
+                </div>
+            </div>
+            <div class="stat-card cyan-glow animate-on-scroll">
+                <div class="stat-top">
+                    <span class="stat-dot"></span>
+                </div>
+                <div class="stat-bottom">
+                    <div class="stat-text">
+                        <p class="stat-primary">Total No. of Projects</p>
+                        <p class="stat-secondary">Total No. of Projects</p>
+                    </div>
+                    <h3 class="stat-number">15</h3>
+                </div>
+            </div>
+            <div class="stat-card purple-glow animate-on-scroll">
+                <div class="stat-top">
+                    <span class="stat-dot"></span>
+                </div>
+                <div class="stat-bottom">
+                    <div class="stat-text">
+                        <p class="stat-primary">Total No. of Projects</p>
+                        <p class="stat-secondary">Total No. of Projects</p>
+                    </div>
+                    <h3 class="stat-number">15</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <div class="about-header animate-on-scroll">
+            <h1 class="bg-text">MY EXPERTISE</h1>
+            <div class="title-badge">MY SKILLS</div>
+        </div>
+        <div class="skills-container animate-on-scroll">
+            <div class="skill-card">
+                <i class="fa-brands fa-java skill-icon" style="color: #f89820;"></i>
+                <p>Java</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js skill-icon" style="color: #f7df1e;"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-python skill-icon" style="color: #3776ab;"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-react skill-icon" style="color: #61dafb;"></i>
+                <p>React</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database skill-icon" style="color: #00758f;"></i>
+                <p>MySQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26;"></i>
+                <p>HTML</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <div class="about-header animate-on-scroll">
+            <h1 class="bg-text">MY WORK</h1>
+            <div class="title-badge">MY PROJECTS</div>
+        </div>
+        
+        <div class="project-showcase animate-on-scroll">
+            <div class="project-left">
+                <img src="./assests/project.webp" alt="Project Mockup" class="mockup-img">
+            </div>
+            
+            <div class="project-right">
+                <div class="code-card project-code-card">
+                    <div class="code-header project-code-header">
+                        <div class="window-buttons">
+                            <span class="dot red"></span>
+                            <span class="dot orange"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="project-code-title">AI POWERED FINACIAL APP</span>
+                        <button class="project-link-btn">LINK</button>
+                    </div>
+                    <div class="code-content project-code-content">
+                        <pre><code><span class="pink">const</span> <span class="white">project</span> = {
+    <span class="white">name:</span> <span class="yellow">' AI for Role Suggestion and Employee Promotion '</span>,
+    <span class="white">tools:</span> [<span class="yellow">'HTML'</span>, <span class="yellow">'MysqlDB'</span>, <span class="yellow">'Rest API'</span>], 
+    <span class="white">MyRole :</span> <span class="orange">Frontend Developer</span>,
+    <span class="white">Description:</span> <span class="cyan">Me and my team built an AI-powered
+                 I have developed API using HTML,CSS, OpenAI, SQL,.
+                 This project will help for role suggestion will suggest the 
+                 Superiors about their employees performance and their credits   
+                 and provide suggestion for their promotion and increment.
+                 this helps the superiors to reduce the manpower for 
+                 supervising and give solid reason for their roles.</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education" id="education">
+        <div class="about-header animate-on-scroll">
+            <h1 class="bg-text">MY JOURNEY</h1>
+            <div class="title-badge">MY EDUCATION</div>
+        </div>
+        
+        <div class="timeline-container animate-on-scroll">
+            <div class="timeline-line"></div>
+            
+            <!-- College (Left) -->
+            <div class="timeline-item left">
+                <div class="timeline-dot-inner"></div>
+                <div class="timeline-content">
+                    <h3 class="edu-degree">Bachelor Degree</h3>
+                    <h4 class="edu-college">UNIVERSITY COLLEGE OF ENGINEERING</h4>
+                    <p class="edu-location">Ramanathapuram-600513</p>
+                    <p class="edu-major">B.E CSE</p>
+                    <p class="edu-gpa">GPA: 7.34/10</p>
+                </div>
+                <div class="timeline-date">2022 - 2026</div>
+            </div>
+            
+            <!-- Diploma (Right) -->
+            <div class="timeline-item right">
+                <div class="timeline-dot-inner"></div>
+                <div class="timeline-content">
+                    <h3 class="edu-degree">Diploma</h3>
+                    <h4 class="edu-college"> Mohamed sathak Polytechnic College</h4>
+                    <p class="edu-location">Ramanathapuram-600513</p>
+                    <p class="edu-major">Computer Science</p>
+                    <p class="edu-gpa">Percentage: 76%</p>
+                </div>
+                <div class="timeline-date">2019 - 2022</div>
+            </div>
+            
+            <!-- High School (Left) -->
+            <div class="timeline-item left">
+                <div class="timeline-dot-inner"></div>
+                <div class="timeline-content">
+                    <h3 class="edu-degree">High School</h3>
+                    <h4 class="edu-college">St.Joseph's Higher Secondary School</h4>
+                    <p class="edu-location">Ramanathapuram-600513</p>
+                    <p class="edu-major">State Board</p>
+                    <p class="edu-gpa">Percentage: 46%</p>
+                </div>
+                <div class="timeline-date">2018 - 2019</div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <section class="footer" id="cta">
+        <div class="footer-content animate-on-scroll">
+            <h2>Let’s Create an Amazing<br>Project Together!</h2>
+            <a href="#contact" class="contact-link">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="about-header animate-on-scroll">
+            <h1 class="bg-text">REACH ME</h1>
+            <div class="title-badge">CONTACT ME</div>
+        </div>
+        
+        <div class="contact-container">
+            <!-- Decorative Orbs -->
+            <div class="orb orb-cyan"></div>
+            <div class="orb orb-orange"></div>
+            <div class="orb orb-purple"></div>
+            
+            <div class="contact-left animate-on-scroll">
+                <form class="contact-form">
+                    <p class="form-desc">If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.</p>
+                    
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label>Your Message</label>
+                        <textarea rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-right animate-on-scroll">
+                <div class="contact-info-card">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <p>+91 93613 83025</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <p>naveetharan.t@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <p>Panaiyadiyenthal, Ramanathapuram-623515</p>
+                    </div>
+                    
+                    <div class="social-links-row">
+                        <div class="social-circle"><i class="fa-solid fa-phone"></i></div>
+                        <div class="social-circle"><i class="fa-solid fa-phone"></i></div>
+                        <div class="social-circle"><i class="fa-solid fa-phone"></i></div>
+                        <div class="social-circle"><i class="fa-solid fa-phone"></i></div>
+                        <div class="social-circle"><i class="fa-solid fa-phone"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const navLinks = document.getElementById('nav-links');
+
+        // Toggle sidebar menu
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            if(navLinks.classList.contains('active')) {
+                menuBtn.classList.replace('fa-bars', 'fa-xmark');
+            } else {
+                menuBtn.classList.replace('fa-xmark', 'fa-bars');
+            }
+        });
+
+        // Close sidebar when clicking a link
+        document.querySelectorAll('#nav-links li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuBtn.classList.replace('fa-xmark', 'fa-bars');
+            });
+        });
+
+        // SCROLL ANIMATION SCRIPT
+        /* 
+           Intersection Observer API checks when elements appear on the screen.
+           Here we create an observer that adds the 'show' class to elements
+           when they scroll into view.
+        */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                // If the element is visible in the viewport
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        });
+
+        // Grab all elements with the class 'animate-on-scroll' and observe them
+        const hiddenElements = document.querySelectorAll('.animate-on-scroll');
+        hiddenElements.forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>
